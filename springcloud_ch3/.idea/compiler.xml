@@ -6,15 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
         <module name="service-feign" />
         <module name="service-hi" />
-      </profile>
-      <profile name="Annotation profile for springcloud_ch3" enabled="true">
-        <sourceOutputDir name="../eureka-server/target/generated-sources/annotations" />
-        <sourceTestOutputDir
-                name="../eureka-server/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

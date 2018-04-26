@@ -1,0 +1,1 @@
+AlwaysSampler可正常使用的前提条件 保证boot为1.5.2.RELEASE版本，同时，保证dependencyManagement为Dalston.RELEASE版本
